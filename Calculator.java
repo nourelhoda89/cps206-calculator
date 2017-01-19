@@ -34,15 +34,15 @@ public class Calculator{
       
       if (operation == '+'){
          answer =  num1 + num2;
-         System.out.println ("java calculator add " + answer);
+         System.out.println (+ answer);
       }
       else if(operation == '-'){
          answer =  num1 - num2;
-         System.out.println ("java calculator substract " +answer);
+         System.out.println ( +answer);
       }
       else if (operation == '*'){
          answer = num1 * num2;
-         System.out.println ("java calculator multiply " +answer);
+         System.out.println ( " +answer);
       }
       else if (operation == '/'){
          if (num2 == 0){
